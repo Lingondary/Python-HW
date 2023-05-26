@@ -8,7 +8,7 @@ lambda x, y: x + y
 lambda x, y: x * y
 lambda x, y: x / y
 
-def print_operation_table(operation, num_rows=6, num_columns=6): # Не уверен подразумевалась ли тут матрица, но как по мне она сама напрашивается. 
+def print_operation_table(operation, num_rows=6, num_columns=6): 
     for i in range(num_rows):
         output = []
         for j in range(num_columns):
